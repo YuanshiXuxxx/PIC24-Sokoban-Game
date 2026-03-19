@@ -56,15 +56,23 @@ This project demonstrates:
 - Add setup instructions for the development environment
 ## 🔥 Key Highlights
 
-- Designed and implemented a complete embedded game system on PIC24
-- Built real-time input handling using joystick and button interrupts
-- Developed game logic including movement, collision detection, and win conditions
-- Implemented LCD rendering pipeline for interactive display
-- Structured modular drivers for hardware abstraction
+- Designed and implemented a complete embedded game system on PIC24 (C-based)
+- Built interrupt-driven input handling for real-time joystick and button control
+- Developed core game logic including movement, collision detection, and win conditions
+- Implemented LCD rendering pipeline with efficient screen updates
+- Structured modular drivers for hardware abstraction and scalability
 ## 🧩 System Architecture
-
-[Joystick/Button] → [Input Handler] → [Game Logic] → [LCD Display]
+Input Layer (Joystick / Button)  
+→ Interrupt-driven Input Handler  
+→ Game State Machine (Logic & Rules)  
+→ Rendering Layer (LCD Driver)
 ## 💡 Why This Project Matters
 
 This project demonstrates the ability to build a complete embedded system integrating hardware input, real-time processing, and display output. It reflects practical experience in low-level programming and system design beyond standard coursework.
+## 🧠 Engineering Takeaways
+
+- Gained hands-on experience in real-time embedded system design
+- Improved ability to debug hardware-software interaction
+- Learned to structure low-level code into modular and maintainable components
+- Developed understanding of resource-constrained system optimization
 
